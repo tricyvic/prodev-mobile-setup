@@ -8,11 +8,11 @@ import {
   StyleSheet
 } from "react-native";
 import { blue } from "react-native-reanimated/lib/typescript/Colors";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 
 export default function Index() {
   return (
-    <SafeAreaProvider >
+    <SafeAreaProvider>
       <SafeAreaView style={{ flex: 1 }}>
         <ImageBackground
           source={require("@/assets/images/background-image.png")}
